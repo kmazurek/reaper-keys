@@ -665,7 +665,7 @@ SCR 4 0 reaper_keys_main_<MS-backspace> "[reaper-keys] [key_press] [<MS-backspac
 SCR 4 0 reaper_keys_main_<CS-backspace> "[reaper-keys] [key_press] [<CS-backspace>]" ./reaper-keys/key_scripts/main_(CS-backspace).lua
 SCR 4 0 reaper_keys_main_<CM-backspace> "[reaper-keys] [key_press] [<CM-backspace>]" ./reaper-keys/key_scripts/main_(CM-backspace).lua
 SCR 4 0 reaper_keys_main_<CMS-backspace> "[reaper-keys] [key_press] [<CMS-backspace>]" ./reaper-keys/key_scripts/main_(CMS-backspace).lua
-SCR 4 0 reaper_keys_main_<SPC> "[reaper-keys] [key_press] [<SPC>]" ./reaper-keys/key_scripts/main_SPC.lua
+SCR 516 0 reaper_keys_main_<SPC> "[reaper-keys] [key_press] [<SPC>]" ./reaper-keys/key_scripts/main_SPC.lua
 SCR 4 0 reaper_keys_main_<C-SPC> "[reaper-keys] [key_press] [<C-SPC>]" ./reaper-keys/key_scripts/main_(C-SPC).lua
 SCR 4 0 reaper_keys_main_<M-SPC> "[reaper-keys] [key_press] [<M-SPC>]" ./reaper-keys/key_scripts/main_(M-SPC).lua
 SCR 4 0 reaper_keys_main_<S-SPC> "[reaper-keys] [key_press] [<S-SPC>]" ./reaper-keys/key_scripts/main_(S-SPC).lua
@@ -681,7 +681,7 @@ SCR 4 0 reaper_keys_main_<MS-TAB> "[reaper-keys] [key_press] [<MS-TAB>]" ./reape
 SCR 4 0 reaper_keys_main_<CS-TAB> "[reaper-keys] [key_press] [<CS-TAB>]" ./reaper-keys/key_scripts/main_(CS-TAB).lua
 SCR 4 0 reaper_keys_main_<CM-TAB> "[reaper-keys] [key_press] [<CM-TAB>]" ./reaper-keys/key_scripts/main_(CM-TAB).lua
 SCR 4 0 reaper_keys_main_<CMS-TAB> "[reaper-keys] [key_press] [<CMS-TAB>]" ./reaper-keys/key_scripts/main_(CMS-TAB).lua
-SCR 4 0 reaper_keys_main_<ESC> "[reaper-keys] [key_press] [<ESC>]" ./reaper-keys/key_scripts/main_ESC.lua
+SCR 516 0 reaper_keys_main_<ESC> "[reaper-keys] [key_press] [<ESC>]" ./reaper-keys/key_scripts/main_ESC.lua
 SCR 4 0 reaper_keys_main_<C-ESC> "[reaper-keys] [key_press] [<C-ESC>]" ./reaper-keys/key_scripts/main_(C-ESC).lua
 SCR 4 0 reaper_keys_main_<M-ESC> "[reaper-keys] [key_press] [<M-ESC>]" ./reaper-keys/key_scripts/main_(M-ESC).lua
 SCR 4 0 reaper_keys_main_<S-ESC> "[reaper-keys] [key_press] [<S-ESC>]" ./reaper-keys/key_scripts/main_(S-ESC).lua
@@ -730,7 +730,7 @@ SCR 4 0 RS1e297a628362329e2f2c30819d9e71e032b13572 "[reaper-keys] [key_press] [<
 SCR 4 0 reaper_keys_main_<CM-d> "[reaper-keys] [key_press] [<CM-d>]" ./reaper-keys/key_scripts/main_(CM-d).lua
 SCR 4 0 RS271441928403dc369ba5cdafad9a2608fe7ca950 "[reaper-keys] [key_press] [<CM-D>]" ./reaper-keys/key_scripts/main_(CMS-d).lua
 SCR 4 0 reaper_keys_main_e "[reaper-keys] [key_press] [e]" ./reaper-keys/key_scripts/main_e.lua
-SCR 4 0 reaper_keys_main_<C-e> "[reaper-keys] [key_press] [<C-e>]" ./reaper-keys/key_scripts/main_(C-e).lua
+SCR 516 0 reaper_keys_main_<C-e> "[reaper-keys] [key_press] [<C-e>]" ./reaper-keys/key_scripts/main_(C-e).lua
 SCR 4 0 reaper_keys_main_<M-e> "[reaper-keys] [key_press] [<M-e>]" ./reaper-keys/key_scripts/main_(M-e).lua
 SCR 4 0 RS0b8fa817fa790e50479c8463262a19f773bc36bc "[reaper-keys] [key_press] [E]" ./reaper-keys/key_scripts/main_(S-e).lua
 SCR 4 0 RSa53187d328946e873775cd6505fd1c117bc0e3c5 "[reaper-keys] [key_press] [<M-E>]" ./reaper-keys/key_scripts/main_(MS-e).lua
@@ -745,7 +745,7 @@ SCR 4 0 RSc7f9e4c5f2fe15643046403cfac9fa53b6e4fcc2 "[reaper-keys] [key_press] [<
 SCR 4 0 RSe70a4d5522d7baec9ead1a88f7c427be02995169 "[reaper-keys] [key_press] [<C-F>]" ./reaper-keys/key_scripts/main_(CS-f).lua
 SCR 4 0 reaper_keys_main_<CM-f> "[reaper-keys] [key_press] [<CM-f>]" ./reaper-keys/key_scripts/main_(CM-f).lua
 SCR 4 0 RSe66c9bfc3d915e4f00c5d1fd21e6efee163c1b21 "[reaper-keys] [key_press] [<CM-F>]" ./reaper-keys/key_scripts/main_(CMS-f).lua
-SCR 4 0 reaper_keys_main_g "[reaper-keys] [key_press] [g]" ./reaper-keys/key_scripts/main_g.lua
+SCR 516 0 reaper_keys_main_g "[reaper-keys] [key_press] [g]" ./reaper-keys/key_scripts/main_g.lua
 SCR 4 0 reaper_keys_main_<C-g> "[reaper-keys] [key_press] [<C-g>]" ./reaper-keys/key_scripts/main_(C-g).lua
 SCR 4 0 reaper_keys_main_<M-g> "[reaper-keys] [key_press] [<M-g>]" ./reaper-keys/key_scripts/main_(M-g).lua
 SCR 4 0 RSc611d0d9cd6977957e37363ff1d067f476d80bc8 "[reaper-keys] [key_press] [G]" ./reaper-keys/key_scripts/main_(S-g).lua
@@ -769,7 +769,7 @@ SCR 4 0 RSd01620d43ececf862963a557b05c847bd3826eae "[reaper-keys] [key_press] [<
 SCR 4 0 RScb026696ecca8879ccca46cf6a866cfbb138b50f "[reaper-keys] [key_press] [<C-I>]" ./reaper-keys/key_scripts/main_(CS-i).lua
 SCR 4 0 reaper_keys_main_<CM-i> "[reaper-keys] [key_press] [<CM-i>]" ./reaper-keys/key_scripts/main_(CM-i).lua
 SCR 4 0 RS5cae0a0c11ec0f6649a8f483f58374cbb7c9fc3a "[reaper-keys] [key_press] [<CM-I>]" ./reaper-keys/key_scripts/main_(CMS-i).lua
-SCR 4 0 reaper_keys_main_j "[reaper-keys] [key_press] [j]" ./reaper-keys/key_scripts/main_j.lua
+SCR 516 0 reaper_keys_main_j "[reaper-keys] [key_press] [j]" ./reaper-keys/key_scripts/main_j.lua
 SCR 4 0 reaper_keys_main_<C-j> "[reaper-keys] [key_press] [<C-j>]" ./reaper-keys/key_scripts/main_(C-j).lua
 SCR 4 0 reaper_keys_main_<M-j> "[reaper-keys] [key_press] [<M-j>]" ./reaper-keys/key_scripts/main_(M-j).lua
 SCR 4 0 RS77b5e27e989a5001086b8960b8a30e6693a920cf "[reaper-keys] [key_press] [J]" ./reaper-keys/key_scripts/main_(S-j).lua
@@ -897,7 +897,7 @@ SCR 4 0 RS6b9a8cfd9a7cddd740af23beb307d89519907550 "[reaper-keys] [key_press] [<
 SCR 4 0 RS8429bd99dc958b1a13c0cf1491551c50c52143cc "[reaper-keys] [key_press] [<C-Y>]" ./reaper-keys/key_scripts/main_(CS-y).lua
 SCR 4 0 reaper_keys_main_<CM-y> "[reaper-keys] [key_press] [<CM-y>]" ./reaper-keys/key_scripts/main_(CM-y).lua
 SCR 4 0 RS341121253a876705132dc3009180cb690ace458e "[reaper-keys] [key_press] [<CM-Y>]" ./reaper-keys/key_scripts/main_(CMS-y).lua
-SCR 4 0 reaper_keys_main_z "[reaper-keys] [key_press] [z]" ./reaper-keys/key_scripts/main_z.lua
+SCR 516 0 reaper_keys_main_z "[reaper-keys] [key_press] [z]" ./reaper-keys/key_scripts/main_z.lua
 SCR 4 0 reaper_keys_main_<C-z> "[reaper-keys] [key_press] [<C-z>]" ./reaper-keys/key_scripts/main_(C-z).lua
 SCR 4 0 reaper_keys_main_<M-z> "[reaper-keys] [key_press] [<M-z>]" ./reaper-keys/key_scripts/main_(M-z).lua
 SCR 4 0 RS466061a49246cd613a81dd6812430661b1a488f1 "[reaper-keys] [key_press] [Z]" ./reaper-keys/key_scripts/main_(S-z).lua
@@ -1089,34 +1089,75 @@ SCR 4 0 reaper_keys_main_` "[reaper-keys] [key_press] [`]" ./reaper-keys/key_scr
 SCR 4 0 reaper_keys_main_<C-`> "[reaper-keys] [key_press] [<C-`>]" ./reaper-keys/key_scripts/main_(C-backtick).lua
 SCR 4 0 reaper_keys_main_<M-`> "[reaper-keys] [key_press] [<M-`>]" ./reaper-keys/key_scripts/main_(M-backtick).lua
 SCR 4 0 reaper_keys_main_<CM-`> "[reaper-keys] [key_press] [<CM-`>]" ./reaper-keys/key_scripts/main_(CM-backtick).lua
-KEY 1 37 _reaper_keys_main_<left> 0
-KEY 9 37 _reaper_keys_main_<C-left> 0
-KEY 17 37 _reaper_keys_main_<M-left> 0
-KEY 5 37 _reaper_keys_main_<S-left> 0
+ACT 1 0 "d63f9019bea61c38b10a0ba017f59379" "Custom: GlobalReset" _S&M_WNCLS3 _S&M_WNCLS4 _BR_FOCUS_TRACKS _reaper_keys_main_<ESC>
+SCR 4 0 RS7874bd606e8aa12d2de9547f9b4b41808edfd5b8 "Custom: amagalma_Smart contextual zoom.lua" "ReaTeam Scripts/Various/amagalma_Smart contextual zoom.lua"
+SCR 4 0 RS4fed573691014ae9d82685161070a81d0f4baba0 "Custom: amagalma_Load horizontal zoom preset 1.lua" "ReaTeam Scripts/Various/amagalma_Load horizontal zoom preset 1.lua"
+SCR 4 0 RS217e5af4b99f463e3585e9b8371ad424437614c8 "Custom: amagalma_Load horizontal zoom preset 2.lua" "ReaTeam Scripts/Various/amagalma_Load horizontal zoom preset 2.lua"
+SCR 4 0 RS878c1e78000ce6097f5dd5ac2589c29987089cd5 "Custom: amagalma_Load horizontal zoom preset 3.lua" "ReaTeam Scripts/Various/amagalma_Load horizontal zoom preset 3.lua"
+SCR 4 0 RS7cffaa2db2d357d1b06aa2e8f08cf8def59c1b4b "Custom: amagalma_Load horizontal zoom preset 4.lua" "ReaTeam Scripts/Various/amagalma_Load horizontal zoom preset 4.lua"
+SCR 4 0 RSb51095a1a09615461a17c0b3da09d06b6ac18cb0 "Custom: amagalma_Load horizontal zoom preset 5.lua" "ReaTeam Scripts/Various/amagalma_Load horizontal zoom preset 5.lua"
+SCR 4 0 RSccddcc4840069e2f8e9f724120aa3882709de71f "Custom: amagalma_Save current horizontal zoom as preset 1.lua" "ReaTeam Scripts/Various/amagalma_Save current horizontal zoom as preset 1.lua"
+SCR 4 0 RSdf2abffe58f78035bc2c7a42457c1c0c421aadea "Custom: amagalma_Save current horizontal zoom as preset 2.lua" "ReaTeam Scripts/Various/amagalma_Save current horizontal zoom as preset 2.lua"
+SCR 4 0 RS29a05cd540a4fe24864bb5253f4fce27a8dcbce6 "Custom: amagalma_Save current horizontal zoom as preset 3.lua" "ReaTeam Scripts/Various/amagalma_Save current horizontal zoom as preset 3.lua"
+SCR 4 0 RS51a9656e0d6ff2fd41cedc3d183f3db57350692f "Custom: amagalma_Save current horizontal zoom as preset 4.lua" "ReaTeam Scripts/Various/amagalma_Save current horizontal zoom as preset 4.lua"
+SCR 4 0 RSe4976b74a0c78b9c8507c4a050178606b408eb5e "Custom: amagalma_Save current horizontal zoom as preset 5.lua" "ReaTeam Scripts/Various/amagalma_Save current horizontal zoom as preset 5.lua"
+SCR 4 0 RS98551301a3b5bc3cf73319b6ca698c97724b74df "Custom: amagalma_Load vertical zoom preset 1.lua" "ReaTeam Scripts/Various/amagalma_Load vertical zoom preset 1.lua"
+SCR 4 0 RS3ecec63e4fa06da8eb9584127550d3be7ca508fa "Custom: amagalma_Load vertical zoom preset 2.lua" "ReaTeam Scripts/Various/amagalma_Load vertical zoom preset 2.lua"
+SCR 4 0 RS8ecd2918740844b79ac2f2ee35800191f427fd21 "Custom: amagalma_Load vertical zoom preset 3.lua" "ReaTeam Scripts/Various/amagalma_Load vertical zoom preset 3.lua"
+SCR 4 0 RSe1cc6403ed17315c49f55445b46efbf6a77d3ed1 "Custom: amagalma_Load vertical zoom preset 4.lua" "ReaTeam Scripts/Various/amagalma_Load vertical zoom preset 4.lua"
+SCR 4 0 RS2bdb59b1021bfb9071b4ccf6890dbf5325431056 "Custom: amagalma_Load vertical zoom preset 5.lua" "ReaTeam Scripts/Various/amagalma_Load vertical zoom preset 5.lua"
+SCR 4 0 RSbbc6e16de5912b97c704f60c4a64fbcdc595c345 "Custom: amagalma_Save current vertical zoom as preset 1.lua" "ReaTeam Scripts/Various/amagalma_Save current vertical zoom as preset 1.lua"
+SCR 4 0 RSf13fa0197f030a309dba401a5fdcb796d0d312e0 "Custom: amagalma_Save current vertical zoom as preset 2.lua" "ReaTeam Scripts/Various/amagalma_Save current vertical zoom as preset 2.lua"
+SCR 4 0 RSc1be0fd413b20eab6e271aa014c7600036f12372 "Custom: amagalma_Save current vertical zoom as preset 3.lua" "ReaTeam Scripts/Various/amagalma_Save current vertical zoom as preset 3.lua"
+SCR 4 0 RSafa366c3379685aae4217f056a0f59c02a790440 "Custom: amagalma_Save current vertical zoom as preset 4.lua" "ReaTeam Scripts/Various/amagalma_Save current vertical zoom as preset 4.lua"
+SCR 4 0 RSee6ba2b88312aa6902a2bf83afcb6c65153c31f2 "Custom: amagalma_Save current vertical zoom as preset 5.lua" "ReaTeam Scripts/Various/amagalma_Save current vertical zoom as preset 5.lua"
+KEY 13 67 0 0
+KEY 13 68 0 0
+KEY 13 70 0 0
+KEY 13 71 0 0
+KEY 13 77 0 0
+KEY 13 78 0 0
+KEY 13 83 0 0
+KEY 13 84 0 0
+KEY 13 86 0 0
+KEY 13 88 0 0
+KEY 13 90 0 0
+KEY 255 250 0 0
+KEY 255 251 0 0
+KEY 255 218 0 0
+KEY 255 216 988 0
+KEY 255 248 989 0
+KEY 255 249 990 0
+KEY 255 6361 991 0
+KEY 17 8 _BR_FOCUS_TRACKS 0
+KEY 1 32805 _reaper_keys_main_<left> 0
+KEY 9 32805 _reaper_keys_main_<C-left> 0
+KEY 17 32805 _reaper_keys_main_<M-left> 0
+KEY 5 32805 _reaper_keys_main_<S-left> 0
 KEY 21 37 _reaper_keys_main_<MS-left> 0
 KEY 13 37 _reaper_keys_main_<CS-left> 0
 KEY 25 37 _reaper_keys_main_<CM-left> 0
 KEY 29 37 _reaper_keys_main_<CMS-left> 0
-KEY 1 38 _reaper_keys_main_<up> 0
-KEY 9 38 _reaper_keys_main_<C-up> 0
-KEY 17 38 _reaper_keys_main_<M-up> 0
-KEY 5 38 _reaper_keys_main_<S-up> 0
+KEY 1 32806 _reaper_keys_main_<up> 0
+KEY 9 32806 _reaper_keys_main_<C-up> 0
+KEY 17 32806 _reaper_keys_main_<M-up> 0
+KEY 5 32806 _reaper_keys_main_<S-up> 0
 KEY 21 38 _reaper_keys_main_<MS-up> 0
 KEY 13 38 _reaper_keys_main_<CS-up> 0
 KEY 25 38 _reaper_keys_main_<CM-up> 0
 KEY 29 38 _reaper_keys_main_<CMS-up> 0
-KEY 1 39 _reaper_keys_main_<right> 0
-KEY 9 39 _reaper_keys_main_<C-right> 0
-KEY 17 39 _reaper_keys_main_<M-right> 0
-KEY 5 39 _reaper_keys_main_<S-right> 0
+KEY 1 32807 _reaper_keys_main_<right> 0
+KEY 9 32807 _reaper_keys_main_<C-right> 0
+KEY 17 32807 _reaper_keys_main_<M-right> 0
+KEY 5 32807 _reaper_keys_main_<S-right> 0
 KEY 21 39 _reaper_keys_main_<MS-right> 0
 KEY 13 39 _reaper_keys_main_<CS-right> 0
 KEY 25 39 _reaper_keys_main_<CM-right> 0
 KEY 29 39 _reaper_keys_main_<CMS-right> 0
-KEY 1 40 _reaper_keys_main_<down> 0
-KEY 9 40 _reaper_keys_main_<C-down> 0
-KEY 17 40 _reaper_keys_main_<M-down> 0
-KEY 5 40 _reaper_keys_main_<S-down> 0
+KEY 1 32808 _reaper_keys_main_<down> 0
+KEY 9 32808 _reaper_keys_main_<C-down> 0
+KEY 17 32808 _reaper_keys_main_<M-down> 0
+KEY 5 32808 _reaper_keys_main_<S-down> 0
 KEY 21 40 _reaper_keys_main_<MS-down> 0
 KEY 13 40 _reaper_keys_main_<CS-down> 0
 KEY 25 40 _reaper_keys_main_<CM-down> 0
@@ -1203,7 +1244,6 @@ KEY 25 121 _reaper_keys_main_<CM-F10> 0
 KEY 29 121 _reaper_keys_main_<CMS-F10> 0
 KEY 1 8 _reaper_keys_main_<backspace> 0
 KEY 9 8 _reaper_keys_main_<C-backspace> 0
-KEY 17 8 _reaper_keys_main_<M-backspace> 0
 KEY 5 8 _reaper_keys_main_<S-backspace> 0
 KEY 21 8 _reaper_keys_main_<MS-backspace> 0
 KEY 13 8 _reaper_keys_main_<CS-backspace> 0
@@ -1226,8 +1266,6 @@ KEY 13 9 _reaper_keys_main_<CS-TAB> 0
 KEY 25 9 _reaper_keys_main_<CM-TAB> 0
 KEY 29 9 _reaper_keys_main_<CMS-TAB> 0
 KEY 1 27 _reaper_keys_main_<ESC> 0
-KEY 9 27 _reaper_keys_main_<C-ESC> 0
-KEY 17 27 _reaper_keys_main_<M-ESC> 0
 KEY 5 27 _reaper_keys_main_<S-ESC> 0
 KEY 21 27 _reaper_keys_main_<MS-ESC> 0
 KEY 13 27 _reaper_keys_main_<CS-ESC> 0
@@ -1257,7 +1295,6 @@ KEY 25 66 _reaper_keys_main_<CM-b> 0
 KEY 29 66 _reaper_keys_main_<CM-b> 0
 KEY 1 67 _reaper_keys_main_c 0
 KEY 9 67 _reaper_keys_main_<C-c> 0
-KEY 13 67 0 0
 KEY 17 67 _reaper_keys_main_<M-c> 0
 KEY 21 67 _reaper_keys_main_<M-c> 0
 KEY 5 67 _RS35922dc70ab2e11b741be02aed779ead79e9403b 0
@@ -1265,7 +1302,6 @@ KEY 25 67 _reaper_keys_main_<CM-c> 0
 KEY 29 67 _reaper_keys_main_<CM-c> 0
 KEY 1 68 _reaper_keys_main_d 0
 KEY 9 68 _reaper_keys_main_<C-d> 0
-KEY 13 68 0 0
 KEY 17 68 _reaper_keys_main_<M-d> 0
 KEY 21 68 _reaper_keys_main_<M-d> 0
 KEY 5 68 _RS81784d863a6e527a458366f60e45a705ce0f7b0d 0
@@ -1280,7 +1316,6 @@ KEY 25 69 _reaper_keys_main_<CM-e> 0
 KEY 29 69 _reaper_keys_main_<CM-e> 0
 KEY 1 70 _reaper_keys_main_f 0
 KEY 9 70 _reaper_keys_main_<C-f> 0
-KEY 13 70 0 0
 KEY 17 70 _reaper_keys_main_<M-f> 0
 KEY 21 70 _reaper_keys_main_<M-f> 0
 KEY 5 70 _RSfd3c7f13865675ee01df487c1ae3dcef6abb1f0b 0
@@ -1288,7 +1323,6 @@ KEY 25 70 _reaper_keys_main_<CM-f> 0
 KEY 29 70 _reaper_keys_main_<CM-f> 0
 KEY 1 71 _reaper_keys_main_g 0
 KEY 9 71 _reaper_keys_main_<C-g> 0
-KEY 13 71 0 0
 KEY 17 71 _reaper_keys_main_<M-g> 0
 KEY 21 71 _reaper_keys_main_<M-g> 0
 KEY 5 71 _RSc611d0d9cd6977957e37363ff1d067f476d80bc8 0
@@ -1331,7 +1365,6 @@ KEY 25 76 _reaper_keys_main_<CM-l> 0
 KEY 29 76 _reaper_keys_main_<CM-l> 0
 KEY 1 77 _reaper_keys_main_m 0
 KEY 9 77 _reaper_keys_main_<C-m> 0
-KEY 13 77 0 0
 KEY 17 77 _reaper_keys_main_<M-m> 0
 KEY 21 77 _reaper_keys_main_<M-m> 0
 KEY 5 77 _RS1e6a04412eb1430f3083322a91897ce4192f01b4 0
@@ -1339,7 +1372,6 @@ KEY 25 77 _reaper_keys_main_<CM-m> 0
 KEY 29 77 _reaper_keys_main_<CM-m> 0
 KEY 1 78 _reaper_keys_main_n 0
 KEY 9 78 _reaper_keys_main_<C-n> 0
-KEY 13 78 0 0
 KEY 17 78 _reaper_keys_main_<M-n> 0
 KEY 21 78 _reaper_keys_main_<M-n> 0
 KEY 5 78 _RS4f3e5e0b74ada2447a0329b5a0181090ca186623 0
@@ -1375,7 +1407,6 @@ KEY 25 82 _reaper_keys_main_<CM-r> 0
 KEY 29 82 _reaper_keys_main_<CM-r> 0
 KEY 1 83 _reaper_keys_main_s 0
 KEY 9 83 _reaper_keys_main_<C-s> 0
-KEY 13 83 0 0
 KEY 17 83 _reaper_keys_main_<M-s> 0
 KEY 21 83 _reaper_keys_main_<M-s> 0
 KEY 5 83 _RSc8e8ab7b1fad422a6e19380fdd05e1e5443e8f5e 0
@@ -1383,7 +1414,6 @@ KEY 25 83 _reaper_keys_main_<CM-s> 0
 KEY 29 83 _reaper_keys_main_<CM-s> 0
 KEY 1 84 _reaper_keys_main_t 0
 KEY 9 84 _reaper_keys_main_<C-t> 0
-KEY 13 84 0 0
 KEY 17 84 _reaper_keys_main_<M-t> 0
 KEY 21 84 _reaper_keys_main_<M-t> 0
 KEY 5 84 _RS9c7ace968525edc121081826f3aec893e63ab86b 0
@@ -1398,7 +1428,6 @@ KEY 25 85 _reaper_keys_main_<CM-u> 0
 KEY 29 85 _reaper_keys_main_<CM-u> 0
 KEY 1 86 _reaper_keys_main_v 0
 KEY 9 86 _reaper_keys_main_<C-v> 0
-KEY 13 86 0 0
 KEY 17 86 _reaper_keys_main_<M-v> 0
 KEY 21 86 _reaper_keys_main_<M-v> 0
 KEY 5 86 _RS611899b56347e0a8e6190ce6404f55b04675bd9b 0
@@ -1413,7 +1442,6 @@ KEY 25 87 _reaper_keys_main_<CM-w> 0
 KEY 29 87 _reaper_keys_main_<CM-w> 0
 KEY 1 88 _reaper_keys_main_x 0
 KEY 9 88 _reaper_keys_main_<C-x> 0
-KEY 13 88 0 0
 KEY 17 88 _reaper_keys_main_<M-x> 0
 KEY 21 88 _reaper_keys_main_<M-x> 0
 KEY 5 88 _RSf79ec9e4a133ac64d83ba4ae360a551314e81ec9 0
@@ -1428,7 +1456,6 @@ KEY 25 89 _reaper_keys_main_<CM-y> 0
 KEY 29 89 _reaper_keys_main_<CM-y> 0
 KEY 1 90 _reaper_keys_main_z 0
 KEY 9 90 _reaper_keys_main_<C-z> 0
-KEY 13 90 0 0
 KEY 17 90 _reaper_keys_main_<M-z> 0
 KEY 21 90 _reaper_keys_main_<M-z> 0
 KEY 5 90 _RS466061a49246cd613a81dd6812430661b1a488f1 0
@@ -1697,6 +1724,9 @@ KEY 0 96 _reaper_keys_main_` 0
 KEY 8 96 _reaper_keys_main_<C-`> 0
 KEY 16 96 _reaper_keys_main_<M-`> 0
 KEY 24 96 _reaper_keys_main_<CM-`> 0
+KEY 17 27 _d63f9019bea61c38b10a0ba017f59379 0
+KEY 17 8 101 102
+KEY 17 27 101 102
 KEY 1 37 _reaper_keys_midi_<left> 32060
 KEY 9 37 _reaper_keys_midi_<C-left> 32060
 KEY 17 37 _reaper_keys_midi_<M-left> 32060
