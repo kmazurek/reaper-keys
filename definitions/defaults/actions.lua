@@ -556,7 +556,7 @@ return {
     UnsoloAllItems = 41185,
     ToggleAutomaticRecordArm = 40740,
     ToggleStopAtEndOfTimeSelectionIfNoRepeat = 41834,
-    ToggleViewMixer = 40078,
+    ToggleMixerWindow = 40078,
     ToggleVolumeEnvelope = 40406,
     SelectWidthEnvelope = 41870,
     ToggleTakeMuteEnvelope = 40695,
@@ -611,15 +611,35 @@ return {
     MuteAllSendsFromTrack = "_SWS_MUTESENDS",
     ToggleVideoWindow = 50125,
 
+    OpenMediaExplorerWindow = 50124,
+    FocusMediaExplorer = "_RSd0325564d61c2a3d525e49e783d35e90c475c0d2",
+    ToggleMediaExplorerWindow = {"OpenMediaExplorerWindow", "FocusMediaExplorer"},
+
     -- This is bound globally to Alt+backspace
     FocusTracks = "_BR_FOCUS_TRACKS",
     -- This is bound globally to Ctrl+Space
     PlayStop = 40044,
+    JumpToTimeWindow = 40069,
 
     ToggleSmartZoom = "_RS7874bd606e8aa12d2de9547f9b4b41808edfd5b8",
-    LoadZoomPresetH1 = "_RS4fed573691014ae9d82685161070a81d0f4baba0",
-    LoadZoomPresetV1 = "_RS98551301a3b5bc3cf73319b6ca698c97724b74df",
-    LoadZoomPreset1 = {"LoadZoomPresetH1", "LoadZoomPresetV1"},
+
+    ScreensetLoadTrackView1 = 40444,
+    ScreensetLoadTrackView2 = 40445,
+    ScreensetLoadTrackView3 = 40446,
+    ScreensetLoadTrackView4 = 40447,
+    ExpandSelectedTracks = 40723,
+
+    ZoomLevel1 = {"ScreensetLoadTrackView1", "ScrollToSelectedTracks"},
+    ZoomLevel2 = {"ScreensetLoadTrackView2", "ScrollToSelectedTracks"},
+    ZoomLevel3 = {"ScreensetLoadTrackView3", "ScrollToSelectedTracks"},
+    ZoomLevel4 = {"ScreensetLoadTrackView4", "ScrollToSelectedTracks"},
+
+    InsertEnvelopePoint = 40106,
+    InsertRegion = 40174,
+    RegionSplitItems = "_S&M_SPLIT11",
+    ToggleEnvelopeForLastTouchedParameter = 41142,
+
+    ToggleFolderCollapse = "_RSf37f655eebafe6210c4bcc0a1c8212db711d94d1",
     
     Test = "_RS17204a59a3800140c2db959ea226f67b17807b1f",
 }

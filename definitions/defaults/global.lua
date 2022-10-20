@@ -2,7 +2,7 @@ return {
     timeline_motion = {
         ["0"] = "ProjectStart",
         ["<C-$>"] = "ProjectEnd",
-        ["f"] = "PlayPosition",
+        -- ["f"] = "PlayPosition",
         ["x"] = "MousePosition",
         ["["] = "LoopStart",
         ["]"] = "LoopEnd",
@@ -10,8 +10,8 @@ return {
         ["<right>"] = "NextMarker",
         ["<M-left>"] = "PrevTimeSignatureMarker",
         ["<M-right>"] = "NextTimeSignatureMarker",
-        ["<M-h>"] = "Left10Pix",
-        ["<M-l>"] = "Right10Pix",
+        ["<M-h>"] = "PrevTransientInItem",
+        ["<M-l>"] = "NextTransientInItem",
         ["<M-H>"] = "Left40Pix",
         ["<M-L>"] = "Right40Pix",
         ["h"] = "LeftGridDivision",
@@ -58,13 +58,14 @@ return {
         ["@"] = "PlayMacro",
         [","] = "RecordMacro",
         ["<ESC>"] = "Reset",
-        ["<C-m>"] = "ToggleViewMixer",
-        ["<C-v>"] = "ToggleVideoWindow",
+        ["<return>"] = "JumpToTimeWindow",
         ["<backspace>"] = "RemoveTimeSelection",
-        ["<C-SPC>"] = "PlayStop",
         ["<C-r>"] = "Redo",
+        ["f"] = "PlayStop",
         ["u"] = "Undo",
         ["v"] = "SetModeVisualTimeline",
+        ["zz"] = "ScrollToSelectedTracks",
+
 
         ["<C-s>"] = "SelectItemsUnderEditCursor",
         ["x"] = "ToggleLoop",
@@ -74,39 +75,13 @@ return {
         [""] = "NextRegion",
         [""] = "PrevRegion",
 
-        ["z"] = { "+zoom", {
-            ["t"] = "ToggleSmartZoom",
-            ["z"] = "ScrollToSelectedTracks",
-            ["d"] = "LoadZoomPreset1",
-            ["g"] = "ZoomProject",
-        }},
-
         ["<SPC>"] = { "+leader commands", {
             ["<SPC>"] = "ShowActionList",
-
-            ["r"] = { "+render", {
-                ["m"] = "RenderTrackMono",
-                ["t"] = "RenderItemsToNewTake",
-                ["p"] = "RenderProjectWithLastSetting",
-                ["P"] = "RenderProject",
-                ["s"] = "RenderTrack",
-            }},
-
-            ["R"] = { "+REAPER", {
-                ["p"] = "PackageManagerBrowse",
-                ["o"] = "ShowPreferences",
-            }},
-
-            ["m"] = { "+markers", {
-                ["l"] = "OpenMarkerList",
-                ["m"] = "InsertOrEditMarker",
-                ["M"] = "Mark",
-                ["r"] = "RenumberMarkersInOrder",
-            }},
 
             ["e"] = {"+envelopes", {
                 ["a"] = "ToggleArmEnvelope",
                 ["b"] = "ToggleEnvelopeBypass",
+                ["i"] = "InsertEnvelopePoint",
                 ["A"] = "ToggleArmAllEnvelopes",
                 ["A"] = "UnarmAllEnvelopes",
                 ["d"] = "ClearEnvelope",
@@ -150,13 +125,46 @@ return {
                 }},
             }},
 
+            ["m"] = { "+markers", {
+                ["l"] = "OpenMarkerList",
+                ["m"] = "InsertOrEditMarker",
+                ["M"] = "Mark",
+                ["r"] = "RenumberMarkersInOrder",
+            }},
+
+            ["p"] = { "+project", {
+                ["s"] = "SaveProject",
+                ["t"] = "AdjustTransientDetection",
+            }},
+
+            ["r"] = { "+region", {
+                ["d"] = "RemoveRegion",
+                ["h"] = "PrevRegion",
+                ["l"] = "NextRegion",
+                ["r"] = "InsertRegion",
+                ["s"] = "RegionSelectItems",
+                ["S"] = "RegionSplitItems",
+            }},
+
+            ["R"] = { "+render", {
+                ["m"] = "RenderTrackMono",
+                ["t"] = "RenderItemsToNewTake",
+                ["p"] = "RenderProjectWithLastSetting",
+                ["P"] = "RenderProject",
+                ["s"] = "RenderTrack",
+            }},
+
             ["t"] = { "+track", {
+                ["a"] = {"+automation", {
+                         ["e"] = "ToggleEnvelopeForLastTouchedParameter",
+                }},
                 ["R"] = "RenderTrack",
                 ["r"] = "RenameTrack",
                 ["z"] = "MinimizeTracks",
                 ["m"] = "CycleRecordMonitor",
                 ["f"] = "CycleFolderState",
                 ["i"] = "SetTrackInputToMatchFirstSelected",
+                ["t"] = "ToggleFolderCollapse",
                 ["y"] = "SaveTrackAsTemplate",
                 ["i"] = {"+insert", {
                          ["c"] = "InsertClickTrack",
@@ -179,6 +187,24 @@ return {
                         ["u"] = "UnfreezeTrack",
                         ["s"] = "ShowTrackFreezeDetails",
                 }},
+            }},
+
+            ["w"] = { "+windows", {
+                ["e"] = "ToggleMediaExplorerWindow",
+                ["m"] = "ToggleMixerWindow",
+                ["v"] = "ToggleVideoWindow",
+                ["o"] = "ShowPreferences",
+                ["p"] = "PackageManagerBrowse",
+            }},
+
+
+            ["z"] = { "+zoom", {
+                ["e"] = "ExpandSelectedTracks",
+                ["t"] = "ToggleSmartZoom",
+                ["s"] = "ZoomLevel4",
+                ["d"] = "ZoomLevel3",
+                ["f"] = "ZoomLevel2",
+                ["g"] = "ZoomLevel1",
             }},
         }},
     }

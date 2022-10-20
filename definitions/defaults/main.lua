@@ -107,6 +107,7 @@ return {
     ["o"] = "EnterTrackBelow",
     ["p"] = "Paste",
     ["yy"] = "CopyTrack",
+    ["zz"] = "ScrollToSelectedTracks",
     ["%"] = "SplitItemsAtEditCursor",
     ["~"] = "MarkedTracks",
     ["<C-j>"] = "NudgeTrackVolumeDownBy1Tenth",
