@@ -641,5 +641,5 @@ return {
 
     ToggleFolderCollapse = "_RSf37f655eebafe6210c4bcc0a1c8212db711d94d1",
     
-    Test = "_RS17204a59a3800140c2db959ea226f67b17807b1f",
+    EnterVisualTimelineMode = {"ClearTimeSelection", "SetTimeSelectionStart", "SetTimeSelectionEnd", "SetModeVisualTimeline"},
 }

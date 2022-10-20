@@ -54,16 +54,17 @@ return {
         ["o"] = "SwitchTimelineSelectionSide",
     },
     command = {
+        ["!"] = "ToggleLoop",
         ["."] = "RepeatLastCommand",
         ["@"] = "PlayMacro",
         [","] = "RecordMacro",
         ["<ESC>"] = "Reset",
         ["<return>"] = "JumpToTimeWindow",
-        ["<backspace>"] = "RemoveTimeSelection",
+        ["<backspace>"] = "ClearTimeSelection",
         ["<C-r>"] = "Redo",
         ["f"] = "PlayStop",
         ["u"] = "Undo",
-        ["v"] = "SetModeVisualTimeline",
+        ["v"] = "EnterVisualTimelineMode",
         ["zz"] = "ScrollToSelectedTracks",
 
 
@@ -77,6 +78,7 @@ return {
 
         ["<SPC>"] = { "+leader commands", {
             ["<SPC>"] = "ShowActionList",
+            ["?"] = "ShowBindingList",
 
             ["e"] = {"+envelopes", {
                 ["a"] = "ToggleArmEnvelope",
