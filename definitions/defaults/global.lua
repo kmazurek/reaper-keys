@@ -127,6 +127,12 @@ return {
                 }},
             }},
 
+            ["g"] = {"+grid", {
+                ["f"] = "ToggleFramerateGrid",
+                ["s"] = "ToggleSnap",
+                ["l"] = "ToggleGridLines",
+            }},
+
             ["m"] = { "+markers", {
                 ["l"] = "OpenMarkerList",
                 ["m"] = "InsertOrEditMarker",
@@ -135,6 +141,7 @@ return {
             }},
 
             ["p"] = { "+project", {
+                ["o"] = "ShowProjectSettings",
                 ["s"] = "SaveProject",
                 ["t"] = "AdjustTransientDetection",
             }},
@@ -193,6 +200,7 @@ return {
 
             ["w"] = { "+windows", {
                 ["e"] = "ToggleMediaExplorerWindow",
+                ["h"] = "ToggleHistoryWindow",
                 ["m"] = "ToggleMixerWindow",
                 ["v"] = "ToggleVideoWindow",
                 ["o"] = "ShowPreferences",

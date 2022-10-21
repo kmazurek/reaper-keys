@@ -737,7 +737,7 @@ SCR 4 0 RSa53187d328946e873775cd6505fd1c117bc0e3c5 "[reaper-keys] [key_press] [<
 SCR 4 0 RS0e315c30ee69d16acc43f82346daab75b09c116e "[reaper-keys] [key_press] [<C-E>]" ./reaper-keys/key_scripts/main_(CS-e).lua
 SCR 4 0 reaper_keys_main_<CM-e> "[reaper-keys] [key_press] [<CM-e>]" ./reaper-keys/key_scripts/main_(CM-e).lua
 SCR 4 0 RS4664fae7e66f8b850d929dcbbfd62c1098d5ce3e "[reaper-keys] [key_press] [<CM-E>]" ./reaper-keys/key_scripts/main_(CMS-e).lua
-SCR 4 0 reaper_keys_main_f "[reaper-keys] [key_press] [f]" ./reaper-keys/key_scripts/main_f.lua
+SCR 516 0 reaper_keys_main_f "[reaper-keys] [key_press] [f]" ./reaper-keys/key_scripts/main_f.lua
 SCR 4 0 reaper_keys_main_<C-f> "[reaper-keys] [key_press] [<C-f>]" ./reaper-keys/key_scripts/main_(C-f).lua
 SCR 4 0 reaper_keys_main_<M-f> "[reaper-keys] [key_press] [<M-f>]" ./reaper-keys/key_scripts/main_(M-f).lua
 SCR 4 0 RSfd3c7f13865675ee01df487c1ae3dcef6abb1f0b "[reaper-keys] [key_press] [F]" ./reaper-keys/key_scripts/main_(S-f).lua
@@ -1053,7 +1053,7 @@ SCR 4 0 reaper_keys_main_\ "[reaper-keys] [key_press] [\]" ./reaper-keys/key_scr
 SCR 4 0 reaper_keys_main_<C-\> "[reaper-keys] [key_press] [<C-\>]" ./reaper-keys/key_scripts/main_(C-backslash).lua
 SCR 4 0 reaper_keys_main_<M-\> "[reaper-keys] [key_press] [<M-\>]" ./reaper-keys/key_scripts/main_(M-backslash).lua
 SCR 4 0 reaper_keys_main_<CM-\> "[reaper-keys] [key_press] [<CM-\>]" ./reaper-keys/key_scripts/main_(CM-backslash).lua
-SCR 4 0 reaper_keys_main_/ "[reaper-keys] [key_press] [/]" ./reaper-keys/key_scripts/main_slash.lua
+SCR 516 0 reaper_keys_main_/ "[reaper-keys] [key_press] [/]" ./reaper-keys/key_scripts/main_slash.lua
 SCR 4 0 reaper_keys_main_<C-/> "[reaper-keys] [key_press] [<C-/>]" ./reaper-keys/key_scripts/main_(C-slash).lua
 SCR 4 0 reaper_keys_main_<M-/> "[reaper-keys] [key_press] [<M-/>]" ./reaper-keys/key_scripts/main_(M-slash).lua
 SCR 4 0 reaper_keys_main_<CM-/> "[reaper-keys] [key_press] [<CM-/>]" ./reaper-keys/key_scripts/main_(CM-slash).lua
@@ -1111,6 +1111,10 @@ SCR 4 0 RSf13fa0197f030a309dba401a5fdcb796d0d312e0 "Custom: amagalma_Save curren
 SCR 4 0 RSc1be0fd413b20eab6e271aa014c7600036f12372 "Custom: amagalma_Save current vertical zoom as preset 3.lua" "ReaTeam Scripts/Various/amagalma_Save current vertical zoom as preset 3.lua"
 SCR 4 0 RSafa366c3379685aae4217f056a0f59c02a790440 "Custom: amagalma_Save current vertical zoom as preset 4.lua" "ReaTeam Scripts/Various/amagalma_Save current vertical zoom as preset 4.lua"
 SCR 4 0 RSee6ba2b88312aa6902a2bf83afcb6c65153c31f2 "Custom: amagalma_Save current vertical zoom as preset 5.lua" "ReaTeam Scripts/Various/amagalma_Save current vertical zoom as preset 5.lua"
+SCR 4 0 RSd0325564d61c2a3d525e49e783d35e90c475c0d2 "Custom: X-Raym_Focus media explorer.lua" "X-Raym Scripts/View/X-Raym_Focus media explorer.lua"
+SCR 4 0 RSf37f655eebafe6210c4bcc0a1c8212db711d94d1 "Custom: mpl_Toggle between normal and supercollapsed selected folders state.lua" "MPL Scripts/Tracks Properties/mpl_Toggle between normal and supercollapsed selected folders state.lua"
+SCR 4 0 RS910b1dac79abc70a10add6f5e433a1acd8317536 "Custom: mpl_Various_functions.lua" "MPL Scripts/Functions/mpl_Various_functions.lua"
+SCR 4 0 RS0c82ca99c16b6b0fc43ab21e815fb7e9765efa14 "Custom: X-Raym_Move selected tracks up to the top of the visible track list.lua" "X-Raym Scripts/Track Properties/X-Raym_Move selected tracks up to the top of the visible track list.lua"
 KEY 13 67 0 0
 KEY 13 68 0 0
 KEY 13 70 0 0
@@ -1727,6 +1731,32 @@ KEY 24 96 _reaper_keys_main_<CM-`> 0
 KEY 17 27 _d63f9019bea61c38b10a0ba017f59379 0
 KEY 17 8 101 102
 KEY 17 27 101 102
+KEY 1 72 1004 32063
+KEY 1 8 1004 32063
+KEY 1 65 1011 32063
+KEY 1 76 1013 32063
+KEY 1 13 1013 32063
+KEY 1 82 1068 32063
+KEY 5 72 1450 32063
+KEY 5 76 1451 32063
+KEY 0 46 2999 32063
+KEY 1 75 40029 32063
+KEY 1 32806 40029 32063
+KEY 1 74 40030 32063
+KEY 1 32808 40030 32063
+KEY 5 75 40042 32063
+KEY 5 13 41001 32063
+KEY 1 80 42081 32063
+KEY 9 86 42081 32063
+KEY 1 89 42082 32063
+KEY 9 67 42082 32063
+KEY 1 70 42084 32063
+KEY 1 77 42165 32063
+KEY 5 32 42185 32063
+KEY 5 32805 42185 32063
+KEY 0 47 42191 32063
+KEY 9 70 42191 32063
+KEY 1 68 42317 32063
 KEY 1 37 _reaper_keys_midi_<left> 32060
 KEY 9 37 _reaper_keys_midi_<C-left> 32060
 KEY 17 37 _reaper_keys_midi_<M-left> 32060

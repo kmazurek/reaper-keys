@@ -610,6 +610,7 @@ return {
     RenderItemsToNewTake = 41999,
     MuteAllSendsFromTrack = "_SWS_MUTESENDS",
     ToggleVideoWindow = 50125,
+    ToggleHistoryWindow = 40072,
 
     OpenMediaExplorerWindow = 50124,
     FocusMediaExplorer = "_RSd0325564d61c2a3d525e49e783d35e90c475c0d2",
@@ -638,6 +639,9 @@ return {
     InsertRegion = 40174,
     RegionSplitItems = "_S&M_SPLIT11",
     ToggleEnvelopeForLastTouchedParameter = 41142,
+
+    ToggleGridLines = 40145,
+    ToggleFramerateGrid = 41885,
 
     ToggleFolderCollapse = "_RSf37f655eebafe6210c4bcc0a1c8212db711d94d1",
     
