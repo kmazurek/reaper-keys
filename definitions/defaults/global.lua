@@ -73,8 +73,8 @@ return {
         ["m"] = "ToggleMute",
         ["s"] = "ToggleSolo",
         ["x"] = "ZoomUndo",
-        [""] = "NextRegion",
-        [""] = "PrevRegion",
+        ["<S-right>"] = "NextRegion",
+        ["<S-left>"] = "PrevRegion",
 
         ["<SPC>"] = { "+leader commands", {
             ["<SPC>"] = "ShowActionList",
@@ -83,7 +83,10 @@ return {
             ["e"] = {"+envelopes", {
                 ["a"] = "ToggleArmEnvelope",
                 ["b"] = "ToggleEnvelopeBypass",
+                ["e"] = "ToggleEnvelopePointsMoveWithItems",
                 ["i"] = "InsertEnvelopePoint",
+                ["j"] = "NextEnvelope",
+                ["k"] = "PrevEnvelope",
                 ["A"] = "ToggleArmAllEnvelopes",
                 ["A"] = "UnarmAllEnvelopes",
                 ["d"] = "ClearEnvelope",
@@ -133,7 +136,24 @@ return {
                 ["l"] = "ToggleGridLines",
             }},
 
+            ["l"] = { "+layouts", {
+                ["l"] = { "+load", {
+                    ["a"] = "LoadWindowSet1",
+                    ["s"] = "LoadWindowSet2",
+                    ["d"] = "LoadWindowSet3",
+                    ["f"] = "LoadWindowSet4",
+                }},
+
+                ["s"] = { "+save", {
+                    ["a"] = "SaveWindowSet1",
+                    ["s"] = "SaveWindowSet2",
+                    ["d"] = "SaveWindowSet3",
+                    ["f"] = "SaveWindowSet4",
+                }},
+            }},
+
             ["m"] = { "+markers", {
+                ["d"] = "DeleteMarker",
                 ["l"] = "OpenMarkerList",
                 ["m"] = "InsertOrEditMarker",
                 ["M"] = "Mark",
@@ -141,6 +161,10 @@ return {
             }},
 
             ["p"] = { "+project", {
+                ["b"] = "BuildMissingPeaks",
+                ["h"] = "PrevTab",
+                ["l"] = "NextTab",
+                ["n"] = "NewProjectTab",
                 ["o"] = "ShowProjectSettings",
                 ["s"] = "SaveProject",
                 ["t"] = "AdjustTransientDetection",
@@ -148,11 +172,20 @@ return {
 
             ["r"] = { "+region", {
                 ["d"] = "RemoveRegion",
+                ["e"] = "EditRegion",
                 ["h"] = "PrevRegion",
                 ["l"] = "NextRegion",
                 ["r"] = "InsertRegion",
                 ["s"] = "RegionSelectItems",
                 ["S"] = "RegionSplitItems",
+            }},
+
+            ["s"] = { "+selection", {
+                ["a"] = "SelectAllItems",
+                ["c"] = "SelectItemsUnderEditCursor",
+                ["r"] = "RegionSelectItems",
+                ["s"] = "SelectItems",
+                ["t"] = "SelectItemsOnTrack",
             }},
 
             ["R"] = { "+render", {
@@ -167,6 +200,7 @@ return {
                 ["a"] = {"+automation", {
                          ["e"] = "ToggleEnvelopeForLastTouchedParameter",
                 }},
+                ["c"] = "SetTrackColorRandom",
                 ["R"] = "RenderTrack",
                 ["r"] = "RenameTrack",
                 ["z"] = "MinimizeTracks",
@@ -216,6 +250,7 @@ return {
                 ["f"] = "ZoomLevel2",
                 ["g"] = "ZoomLevel1",
             }},
+            ["x"] = "CloseProject",
         }},
     }
 }

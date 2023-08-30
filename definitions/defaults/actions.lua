@@ -629,6 +629,7 @@ return {
     ScreensetLoadTrackView3 = 40446,
     ScreensetLoadTrackView4 = 40447,
     ExpandSelectedTracks = 40723,
+    SetTrackColorRandom = 40358,
 
     ZoomLevel1 = {"ScreensetLoadTrackView1", "ScrollToSelectedTracks"},
     ZoomLevel2 = {"ScreensetLoadTrackView2", "ScrollToSelectedTracks"},
@@ -636,6 +637,7 @@ return {
     ZoomLevel4 = {"ScreensetLoadTrackView4", "ScrollToSelectedTracks"},
 
     InsertEnvelopePoint = 40106,
+    EditRegion = 40616,
     InsertRegion = 40174,
     RegionSplitItems = "_S&M_SPLIT11",
     ToggleEnvelopeForLastTouchedParameter = 41142,
@@ -643,7 +645,21 @@ return {
     ToggleGridLines = 40145,
     ToggleFramerateGrid = 41885,
 
+    DeleteMarker = 40613,
+
+    SaveWindowSet1 = 40474,
+    SaveWindowSet2 = 40475,
+    SaveWindowSet3 = 40476,
+    SaveWindowSet4 = 40477,
+    
+    LoadWindowSet1 = 40454,
+    LoadWindowSet2 = 40455,
+    LoadWindowSet3 = 40456,
+    LoadWindowSet4 = 40457,
+
     ToggleFolderCollapse = "_RSf37f655eebafe6210c4bcc0a1c8212db711d94d1",
     
     EnterVisualTimelineMode = {"ClearTimeSelection", "SetTimeSelectionStart", "SetTimeSelectionEnd", "SetModeVisualTimeline"},
+
+    BuildMissingPeaks = 40047,
 }
