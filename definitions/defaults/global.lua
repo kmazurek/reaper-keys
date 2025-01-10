@@ -152,6 +152,10 @@ return {
                 }},
             }},
 
+            ["i"] = {"+items", {
+                ["e"] = "ExplodeMultichannelAudio",
+            }},
+
             ["m"] = { "+markers", {
                 ["d"] = "DeleteMarker",
                 ["l"] = "OpenMarkerList",
@@ -170,7 +174,7 @@ return {
                 ["t"] = "AdjustTransientDetection",
             }},
 
-            ["r"] = { "+region", {
+            ["R"] = { "+region", {
                 ["d"] = "RemoveRegion",
                 ["e"] = "EditRegion",
                 ["h"] = "PrevRegion",
@@ -188,11 +192,11 @@ return {
                 ["t"] = "SelectItemsOnTrack",
             }},
 
-            ["R"] = { "+render", {
+            ["r"] = { "+render", {
                 ["m"] = "RenderTrackMono",
                 ["t"] = "RenderItemsToNewTake",
-                ["p"] = "RenderProjectWithLastSetting",
-                ["P"] = "RenderProject",
+                ["P"] = "RenderProjectWithLastSetting",
+                ["p"] = "RenderProject",
                 ["s"] = "RenderTrack",
             }},
 

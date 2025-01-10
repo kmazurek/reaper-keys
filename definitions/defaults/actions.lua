@@ -396,6 +396,7 @@ return {
     SetRippleEditPerTrack = 40310,
     FirstTrackWithItem = custom.move.firstTrackWithItem,
     DuplicateTimeline = {"SaveTrackSelection", "SelectAllTracks", "CopyItems", "TimeSelectionEnd", "SetRippleEditAllTracks", "FirstTrackWithItem", "Paste", "SetRippleEditOff", "RestoreTrackSelection", prefixRepetitionCount=true},
+    ExplodeMultichannelAudio = 40894,
     ExplodeTakesInPlace = 40642,
     ExplodeTakesInOrder = 40643,
     ToggleBetweenReadAndTouchAutomationMode = 41109,
