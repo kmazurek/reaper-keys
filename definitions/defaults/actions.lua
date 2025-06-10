@@ -663,4 +663,6 @@ return {
     EnterVisualTimelineMode = {"ClearTimeSelection", "SetTimeSelectionStart", "SetTimeSelectionEnd", "SetModeVisualTimeline"},
 
     BuildMissingPeaks = 40047,
+
+    ToggleToolbarDocker = 40279,
 }

@@ -253,6 +253,7 @@ return {
                 ["d"] = "ZoomLevel3",
                 ["f"] = "ZoomLevel2",
                 ["g"] = "ZoomLevel1",
+                ["z"] = "ToggleToolbarDocker",
             }},
             ["x"] = "CloseProject",
         }},
